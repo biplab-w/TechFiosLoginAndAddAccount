@@ -30,4 +30,4 @@ Scenario Outline: User should be able to login with valid credentials and open a
 	
 Examples: 
 |username |password |accountTitle |description |initialBalance |accountNumber |contactPerson | phone |internetBankingURL|
-|"demo@techfios.com" | "abc123" | "Biplab Wagle"| "saving" | "10000" | "543211" |"Biplab" |"123-456-7890" |"https://techfios.com/billing/?ng=accounts/add/"|
+|"demo@techfios.com" | "558566" | "Biplab Wagle"| "saving" | "10000" | "543211" |"Biplab" |"123-456-7890" |"https://techfios.com/billing/?ng=accounts/add/"|

@@ -21,6 +21,10 @@ public class TestBase {
 		
 	}
 	
+	public static int randomNumGen() {
+		return (int) (Math.random()*100+1);
+	}
+	
 	public static void tearDown() {
 		try {
 			Thread.sleep(3000);

@@ -95,7 +95,7 @@ formatter.examples({
     {
       "cells": [
         "\"demo@techfios.com\"",
-        "\"abc123\"",
+        "\"558566\"",
         "\"Biplab Wagle\"",
         "\"saving\"",
         "\"10000\"",
@@ -146,7 +146,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enters the \"abc123\" in the \"password\" field",
+  "name": "User enters the \"558566\" in the \"password\" field",
   "keyword": "When "
 });
 formatter.match({
@@ -173,8 +173,7 @@ formatter.match({
   "location": "steps.LoginStepsAndAddAccountDefinitionSteps.user_should_land_on_the_dashboard_Page()"
 });
 formatter.result({
-  "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Dashboard]- iBilling\u003e but was:\u003c[Login ]- iBilling\u003e\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\n\tat steps.LoginStepsAndAddAccountDefinitionSteps.user_should_land_on_the_dashboard_Page(LoginStepsAndAddAccountDefinitionSteps.java:66)\n\tat ✽.User should land on Dashboard page(classpath:features/LoginAndAddingAccount.feature:18)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on \"bankCash\"",
@@ -184,7 +183,7 @@ formatter.match({
   "location": "steps.LoginStepsAndAddAccountDefinitionSteps.user_clicks_on_login(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on \"newAccount\"",
@@ -194,7 +193,7 @@ formatter.match({
   "location": "steps.LoginStepsAndAddAccountDefinitionSteps.user_clicks_on_login(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"Biplab Wagle\" in the \"accountTitle\" field in accounts page",
@@ -204,7 +203,7 @@ formatter.match({
   "location": "steps.LoginStepsAndAddAccountDefinitionSteps.user_enters_int_the_field_in_accounts_page(java.lang.String,java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"saving\" in the \"description\" field in accounts page",
@@ -214,7 +213,7 @@ formatter.match({
   "location": "steps.LoginStepsAndAddAccountDefinitionSteps.user_enters_int_the_field_in_accounts_page(java.lang.String,java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"10000\" in the \"initialBalance\" field in accounts page",
@@ -224,7 +223,7 @@ formatter.match({
   "location": "steps.LoginStepsAndAddAccountDefinitionSteps.user_enters_int_the_field_in_accounts_page(java.lang.String,java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"543211\" in the \"accountNumber\" field in accounts page",
@@ -234,7 +233,7 @@ formatter.match({
   "location": "steps.LoginStepsAndAddAccountDefinitionSteps.user_enters_int_the_field_in_accounts_page(java.lang.String,java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"Biplab\" in the \"contactPerson\" field in accounts page",
@@ -244,7 +243,7 @@ formatter.match({
   "location": "steps.LoginStepsAndAddAccountDefinitionSteps.user_enters_int_the_field_in_accounts_page(java.lang.String,java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"123-456-7890\" in the \"Phone\" field in accounts page",
@@ -254,7 +253,7 @@ formatter.match({
   "location": "steps.LoginStepsAndAddAccountDefinitionSteps.user_enters_int_the_field_in_accounts_page(java.lang.String,java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters \"https://techfios.com/billing/?ng\u003daccounts/add/\" in the \"internetBankingURL\" field in accounts page",
@@ -264,7 +263,7 @@ formatter.match({
   "location": "steps.LoginStepsAndAddAccountDefinitionSteps.user_enters_int_the_field_in_accounts_page(java.lang.String,java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks on \"submit\"",
@@ -274,7 +273,7 @@ formatter.match({
   "location": "steps.LoginStepsAndAddAccountDefinitionSteps.user_clicks_on_login(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be able to validate account created successfully",
@@ -284,7 +283,7 @@ formatter.match({
   "location": "steps.LoginStepsAndAddAccountDefinitionSteps.user_should_be_able_to_validate_account_created_successfully()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"

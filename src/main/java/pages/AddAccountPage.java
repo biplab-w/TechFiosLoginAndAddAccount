@@ -49,33 +49,39 @@ public class AddAccountPage extends TestBase{
 
 	public void enterAccountTitle(String accountTitle) throws InterruptedException {
 		Thread.sleep(2000);
-		Account_Title_ELEM.sendKeys(accountTitle);
+		int randNum = randomNumGen();
+		Account_Title_ELEM.sendKeys(accountTitle + randNum);
+		
 	}
 
 	public void enterDescription(String description) {
 		Description_ELEM.sendKeys(description);
+		
 	}
 
 	public void enterBalance(String initialBalance) {
 		Balance_ELEM.sendKeys(initialBalance);
+		
 	}
 
 	public void enterAccountNumber(String accountNumber) {
 		AccountNumber_ELEM.sendKeys(accountNumber);
-
+		
 	}
 
 	public void enterContactPerson(String contactPerson) {
 		ContactPerson_ELEM.sendKeys(contactPerson);
-
+		
 	}
 
 	public void enterPhoneNum(String Phone) {
 		PHONE_ELEM.sendKeys(Phone);
+		
 	}
 
 	public void enterBankingURL(String internetBankingURL) {
 		BankingURL_ELEM.sendKeys(internetBankingURL);
+		
 	}
 
 	public void ClickOnSubmit() {
