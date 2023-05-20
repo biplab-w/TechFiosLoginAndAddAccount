@@ -35,7 +35,8 @@ public class LoginStepsAndAddAccountDefinitionSteps extends TestBase {
 			loginPage.enterUserName(text);
 		else if (field.toLowerCase().equals("password"))
 			loginPage.enterPassword(text);
-
+		else
+			return;
 	}
 
 	@When("User clicks on {string}")
