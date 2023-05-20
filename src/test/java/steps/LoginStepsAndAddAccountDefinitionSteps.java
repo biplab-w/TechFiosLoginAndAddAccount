@@ -21,6 +21,7 @@ public class LoginStepsAndAddAccountDefinitionSteps extends TestBase {
 	public void beforeRun() {
 		initDriver();
 		loginPage = PageFactory.initElements(driver, LoginPage.class);
+		accountPage = PageFactory.initElements(driver, AddAccountPage.class);
 	}
 
 	@Given("User is on the techfios login page")
