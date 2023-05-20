@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -7,6 +8,10 @@ import org.openqa.selenium.support.How;
 import junit.framework.Assert;
 
 public class AddAccountPage extends TestBase{
+	
+	public AddAccountPage(WebDriver driver) {
+		TestBase.driver = driver;
+	}
 	
 	// WebElements
 	@FindBy(how = How.XPATH, using = "//span[contains(text(), 'Dashboard')]")
