@@ -33,18 +33,7 @@ public class AddAccountPage extends TestBase{
 	WebElement Submit_Button_ELEM;
 
 	// Interactable Methods
-	public void DashboardPage(){
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			
-			e.printStackTrace();
-		}
-		String expectedHeader = DASHBOARD_HEADER_ELEM.getText();
-		String actualHeader = " Dashboard ";
-		Assert.assertEquals(expectedHeader, actualHeader);
-	}
-
+	
 	public void clickOnBankCash() {
 		BankCash_ELEM.click();
 	}
