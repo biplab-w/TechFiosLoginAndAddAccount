@@ -9,12 +9,14 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import junit.framework.Assert;
+import pages.AddAccountPage;
 import pages.LoginPage;
 import pages.TestBase;
 
 public class LoginStepsAndAddAccountDefinitionSteps extends TestBase {
 	LoginPage loginPage;
-
+	AddAccountPage accountPage;
+	
 	@Before
 	public void beforeRun() {
 		initDriver();
@@ -42,10 +44,13 @@ public class LoginStepsAndAddAccountDefinitionSteps extends TestBase {
 			loginPage.clickSignInButton();
 			break;
 		case "bankCash":
+			accountPage.clickOnBankCash();
 			break;
 		case "newAccount":
+			accountPage.clickNewAccount();
 			break;
 		case "submit":
+			accountPage.ClickOnSubmit();
 			break;
 		default:
 			break;
@@ -60,21 +65,30 @@ public class LoginStepsAndAddAccountDefinitionSteps extends TestBase {
 	}
 
 	@And("User enters {string} in the {string} field in accounts page")
-	public void user_enters_int_the_field_in_accounts_page(String value, String field) {
+	public void user_enters_int_the_field_in_accounts_page(String value, String field) throws InterruptedException {
 		switch (field) {
 		case "accountTitle":
+			accountPage.enterAccountTitle(value);
 			break;
 		case "description":
+			accountPage.enterDescription(value);
 			break;
 		case "initialBalance":
+			accountPage.enterBalance(value);
 			break;
 		case "accountNumber":
+			accountPage.enterAccountNumber(value);
 			break;
 		case "contactPerson":
+			accountPage.enterContactPerson(value);
 			break;
 		case "Phone":
+			accountPage.enterPhoneNum(value);
 			break;
 		case "internetBankingURL":
+			accountPage.enterBankingURL(value);
+			break;
+		default:
 			break;
 		}
 	}
